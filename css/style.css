@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* !                    GENERAL RULES                          */
+
+.my_padding{
+    padding: 1rem;
+}
+
+
+
+/* ! ---------------------------------------------------------- */
+
+/* INIZIA IL HEADER */
+header{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    background-color: rgb(171, 111, 32);
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/* INIZIA IL MAIN */
+
+main{
+    height: calc(100vh - 100px);
+    overflow: auto;
+    display: flex;
+    padding: 3rem auto;
+}
+
+.fa-magnifying-glass{
+    margin-right: -2rem;
+    z-index: 2;
+}
+.form-control{
+    z-index: 1;
+}
+
+#my_head_form{
+    width: 80%;
+}
+
+#search_bar{
+background-color: black;
+}
+/*  CONTIANER DI DESTRA PARTE SOPRA */
+.my_container_top{
+
+}
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/*  CONTIANER DI DESTRA PARTE SOTTO */
+
+.my_container_bottom{
+    display: flex;
+    width: calc(100vw - 200px);
+    padding: 1rem;
+}
+/*  CONTIANER DI DESTRA PARTE SOTTO -> SINISTRA */
+
+.my_container_left{
+    width: 65%;
+}
+
+/*  CONTIANER DI DESTRA PARTE SOTTO -> DESTRA */
+
+
+.my_container_right{
+    width: 35%;
+}
+
+section{
+    width: 100%;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/* INIZIA IL LEFTER */
+
+#lefter{
+    width: 200px;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/* ! DEBUG */
+
+main{
+    background-color: aqua;
+}
+
+#lefter{
+    background-color: blue;
+}
+
+[class*="col"]{
+    background-color: chocolate;
+    border: 1px solid black;
+    /* min-height: 200px; */
+}
+
+.my_container_top{
+min-height: 150px;
+background-color: chartreuse;
+width: 100%;
+}
