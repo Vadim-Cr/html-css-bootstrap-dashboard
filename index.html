@@ -13,14 +13,32 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid justify-content-start">
+            <div class="container-fluid justify-content-evenly">
               <a class="navbar-brand">
                 <img src="img/logo.svg" alt="logo">
               </a>
-              <form class="d-flex align-items-center mx-2" id="my_head_form" role="search">
-                  <i class="fa-solid fa-magnifying-glass" id="search_bar"></i>
-                  <input class="form-control me-2" type="search" placeholder="      Prova a cercare: Lezioni di Laravel" aria-label="Search">
+              <form class="d-flex align-items-center col-8 mx-2" id="my_head_form" role="search">
+                <div class="search_bar">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <input id="text_bar" class="form-control me-2 " type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </div>
               </form>
+              <div class="right_nav col-1">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+              </div>
             </div>
           </nav>
     </header>
