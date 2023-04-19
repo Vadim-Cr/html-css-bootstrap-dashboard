@@ -102,6 +102,10 @@ main{
     color: white;
 }
 
+.blaze{
+padding-top: 1rem;
+}
+
 nav li{
     background-color: #1B59B4;
     border-radius: 1rem;
@@ -109,9 +113,31 @@ nav li{
     margin: 0.25rem;
     text-align: center;
 }
+
 li:hover{
     background-color: #3079e8;
     border: 1px solid white;
+}
+
+.offcanvas.offcanvas-end{
+    width: 50%;
+}
+
+
+
+.fa-plus{
+    font-size: 2rem;
+    border: solid 2px white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.input-group{
+        margin-bottom: 1rem;
+}
+
+.offcanvas-boady{
+    padding: 2rem;
 }
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
