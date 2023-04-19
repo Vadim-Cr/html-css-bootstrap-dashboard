@@ -97,7 +97,7 @@ main{
     min-height: 150px;
     width: 100%;
 }
-
+        /* Ho modificato una classe di Bootstrap */
 .breadcrumb-item.active{
     color: white;
 }
@@ -119,6 +119,8 @@ li:hover{
     border: 1px solid white;
 }
 
+        /* Ho modificato una classe di Bootstrap allargando il offcanvas da 400px a 50% di pagina*/
+
 .offcanvas.offcanvas-end{
     width: 50%;
 }
@@ -132,9 +134,12 @@ li:hover{
     border-radius: 0.5rem;
 }
 
+        /* Ho modificato una classe di Bootstrap */
+
 .input-group{
         margin-bottom: 1rem;
 }
+            /* Ho modificato una classe di Bootstrap nell'offcanvas*/
 
 .offcanvas-boady{
     padding: 2rem;
