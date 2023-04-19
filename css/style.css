@@ -14,13 +14,12 @@
 
 /* ! ---------------------------------------------------------- */
 
-/* INIZIA IL HEADER */
+/* ? INIZIA IL HEADER */
 header{
     padding:0.2rem;
     width: 100%;
     position: sticky;
 }
-
 
 .search_bar{
     width: 100%;
@@ -28,6 +27,10 @@ header{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.251);
     border-radius: 0.5rem;
+}
+
+.fa-magnifying-glass{
+    margin: 0 1rem;
 }
 
 #text_bar{
@@ -42,7 +45,7 @@ header{
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 
-/* INIZIA IL MAIN */
+/* ? INIZIA IL MAIN */
 
 main{
     height: calc(100vh - 50px);
@@ -51,11 +54,40 @@ main{
     padding: 3rem auto;
 }
 
-.fa-magnifying-glass{
-margin: 0 1rem;
+
+/* ? INIZIA IL LEFTER */
+
+#lefter{
+    width: 120px;
+    min-height: 100%;
+    overflow: auto;
+    padding: 0.5rem;
 }
 
-/*  CONTIANER DI DESTRA PARTE SOPRA */
+#upper_lefter{
+    height: calc(100% - 75px);
+    text-align: center;
+}
+
+#bottom_lefter{
+    height: 75px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.btn-outline-light{
+    border: none;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/* ? MEGA CONTAINER DI DESTRA */
+
+.super_container{
+    width: calc(100% - 120px);
+}
+/* ? CONTIANER DI DESTRA PARTE SOPRA */
 .my_container_top{
 
 }
@@ -89,16 +121,6 @@ section{
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 
-/* INIZIA IL LEFTER */
-
-#lefter{
-    width: 200px;
-    height: calc(100vh - 50px);
-    overflow: auto;
-}
-
-/* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ */
 
 /* ! DEBUG */
 
@@ -120,4 +142,12 @@ main{
 min-height: 150px;
 background-color: chartreuse;
 width: 100%;
+}
+
+#upper_lefter{
+    background-color: crimson;
+}
+
+#bottom_lefter{
+background-color: cornflowerblue;
 }
