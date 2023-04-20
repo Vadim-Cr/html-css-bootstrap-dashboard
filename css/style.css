@@ -203,8 +203,33 @@ tr{
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
+    background-color: #F7F7F7;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
 }
 
+
+/* checkbox taken from BOOTSTRAP */
+
+.my_checkbox_outer{
+    border: rgba(128, 128, 128, 0.195) 1px solid;
+    border-radius: 1rem;
+}
+
+.my_checkbox_inner{
+    background-color: white;
+    border-top: rgba(128, 128, 128, 0.195) 1px solid;
+    padding: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.my_checkbox_inner div{
+    border-bottom: rgba(128, 128, 128, 0.195) 1px solid;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.3rem;
+}
 /*  CONTIANER DI DESTRA PARTE SOTTO -> DESTRA */
 
 
