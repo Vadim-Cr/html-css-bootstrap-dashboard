@@ -14,6 +14,9 @@
     color: white;
 }
 
+.bold{
+    font-weight: 900;
+}
 
 /* ! ---------------------------------------------------------- */
 
@@ -151,13 +154,55 @@ li:hover{
 
 .my_container_bottom{
     display: flex;
-    width: calc(100vw - 500px);
+    width: 100%;
     padding: 1rem;
+    background-color: #F7F7F7;
 }
 /*  CONTIANER DI DESTRA PARTE SOTTO -> SINISTRA */
 
 .my_container_left{
     width: 65%;
+}
+/*      tabella presa da bootstrap */
+
+
+.table_head_fsize{
+    font-size: 1rem;
+}
+
+table, caption{
+    color: black;
+    font-size: 2rem;
+    border: rgba(128, 128, 128, 0.195) 1px solid;
+}
+
+
+caption{
+    padding-left: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: #F7F7F7;
+}
+
+
+tr{
+    background-color: white;
+    color: gray;
+    font-size: 0.7rem;
+}
+
+/* ACCORDION TAKE FROM BOOTSTRAP */
+
+.accordion_container{
+    border-radius: 1rem;
+    border: rgba(128, 128, 128, 0.195) 1px solid;
+}
+
+
+.accordion_caption{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 /*  CONTIANER DI DESTRA PARTE SOTTO -> DESTRA */
@@ -169,6 +214,18 @@ li:hover{
 
 section{
     width: 100%;
+}
+
+th img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+td .fa-solid{
+    margin: auto 0.3rem;
+    border: 1px solid gray;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
 }
 
 /* ------------------------------------------------------------ */
