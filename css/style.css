@@ -210,6 +210,31 @@ tr{
 }
 
 
+
+/*  CONTIANER DI DESTRA PARTE SOTTO -> DESTRA */
+
+
+.my_container_right{
+    width: 35%;
+    padding: 1rem;
+}
+
+section{
+    width: 100%;
+}
+
+th img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+td .fa-solid{
+    margin: auto 0.3rem;
+    border: 1px solid gray;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
 /* checkbox taken from BOOTSTRAP */
 
 .my_checkbox_outer{
@@ -230,29 +255,6 @@ tr{
     margin-bottom: 0.25rem;
     padding-bottom: 0.3rem;
 }
-/*  CONTIANER DI DESTRA PARTE SOTTO -> DESTRA */
-
-
-.my_container_right{
-    width: 35%;
-}
-
-section{
-    width: 100%;
-}
-
-th img{
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-td .fa-solid{
-    margin: auto 0.3rem;
-    border: 1px solid gray;
-    padding: 0.2rem;
-    border-radius: 0.3rem;
-}
-
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 
